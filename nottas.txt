@@ -1,0 +1,18 @@
+.fondo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1500px;
+    background-image: url('https://us.123rf.com/450wm/altitudevisual/altitudevisual2304/altitudevisual230405943/201576392-tienda-de-moda-r%C3%A1pida-con-estantes-llenos-de-ropa-en-varios-estilos-y-colores-creada-con-ai.jpg?ver=6');
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    /* Cubrir toda el área del body */
+    background-position: center;
+    /* Centrar la imagen */
+    color: white;
+    /* Color de texto sobre la imagen */
+}
+
+html
+<img src="https://us.123rf.com/450wm/altitudevisual/altitudevisual2304/altitudevisual230405943/201576392-tienda-de-moda-r%C3%A1pida-con-estantes-llenos-de-ropa-en-varios-estilos-y-colores-creada-con-ai.jpg?ver=6"
+        class="fondo" alt="">

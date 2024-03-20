@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="principal">Carrito de Compras</h1>
+    </header>
+
+    <div class="manuelanzas">
+        <section class="Producto">
+            <div>
+                <h3 class="Titulo1">PRODUCTO</h3>
+                <p class="Titulo1">Chaqueta Dama, color cafe</p>
+                <p class="Titulo1">Talla L</p>
+            </div>
+            <img src="./img/camisa1.webp" alt="" class="imagen1">
+            <img src="./img/icons8-trash-can-48.png" alt="" class="icono" onclick="borrarElemento(this)" id="elementoABorrar1">
+            <section class="precio">
+                <p>$370.000</p>
+            </section>
+            <select class="sumador">
+                <div>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                </div>
+            </select>
+        </section>
+
+        <section class="Producto">
+            <div>
+                <h3 class="Titulo1">PRODUCTO</h3>
+                <p class="Titulo1">Camisa tipo polo, color negra</p>
+                <p class="Titulo1">Talla M</p>
+            </div>
+            <img src="./img/camisa1.webp" alt="" class="imagen1">
+            <img src="./img/icons8-trash-can-48.png" alt="" class="icono" onclick="borrarElemento(this)" id="elementoABorrar2">
+            <section class="precio">
+                <p>$170.000</p>
+            </section>
+            <select class="sumador">
+                <div>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                </div>
+            </select>
+        </section>
+    </div>
+
+    <section class="resumen">
+        <div class="interior">
+            <h3 class="titulo2">Resumen de compra</h3>
+            <label for="" class="casilla">Subtotal $</label>
+            <input type="text" class="casilla2" id="subtotal" readonly>
+
+            <label for="" class="casilla">Iva</label>
+            <input type="text" class="casilla2" id="iva" readonly>
+
+            <label for="" class="casilla">Envio</label>
+            <input type="text" class="casilla2" id="envio" readonly>
+
+            <p class="texto">Si tiene algun codigo de descuento, ingreselo por favor </p>
+            <input type="text" placeholder="Ingrese su código de Promoción" class="casilla2">
+
+            <label for="" class="casilla"></label>
+            <input type="submit" value="Aplicar" class="boton">
+        </div>
+    </section>
+
+    <section class="datos">
+        <label for=""></label>
+        <input type="text" placeholder="Total $" class="datos" id="total" readonly>
+
+        <label for=""></label>
+        <input type="text" placeholder="Datos de envio" class="datos">
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
